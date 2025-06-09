@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍓 Frutillín: Asistente Turístico Inteligente para la Ruta de la Frutilla
 
-## Getting Started
+**Frutillín** es un asistente conversacional IA especializado en la Ruta de la Frutilla de Tarija, Bolivia. Este proyecto es una experiencia interactiva y visualmente atractiva que combina turismo, tecnología y cultura local para ofrecer información verificada y útil a visitantes de todas las edades.
 
-First, run the development server:
+---
+
+## 🚀 Características Destacadas
+
+- 🧠 **IA especializada**: Frutillín responde exclusivamente preguntas sobre la Ruta de la Frutilla. Nada más. ¡Nada menos!
+- 🎨 **Interfaz atractiva y moderna**: Inspirada en el diseño del logotipo oficial de la Ruta. Soporte completo para modo claro 🌞 y oscuro 🌙.
+- 📱 **Diseño responsive**: Adaptado para celulares, tablets y pantallas grandes.
+- 🔗 **Mapa interactivo con OpenRouteService**: Muestra la ruta real entre las paradas.
+- 💬 **Chatbot desplegable**: Accesible desde la esquina inferior derecha con animación de apertura/cierre.
+- 🤖 **Compatible con OpenRouter, Gemini o DeepSeek**: Puedes elegir el proveedor de IA que prefieras.
+
+---
+
+## 📍 ¿Qué es la Ruta de la Frutilla?
+
+Es una ruta agroecoturística y gastronómica que recorre zonas de Tarija centradas en la producción de frutilla (fresa). Esta experiencia incluye visitas a fincas, bodegas, cafeterías, emprendimientos familiares y espacios de recreación natural. Frutillín conoce cada detalle, desde actividades hasta horarios, productos y servicios.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend**: Next.js 15 + TailwindCSS
+- **Backend API**: Node.js (API routes de Next.js)
+- **IA**: Gemini / OpenRouter (Mistral) / DeepSeek (opcional)
+- **Mapas**: OpenRouteService API
+- **Autenticación (opcional)**: Firebase Auth
+- **Modo Oscuro**: Contexto de tema global
+- **Interfaz visual**: SVG/PNG con ilustración original de Frutillín
+
+---
+
+## ⚙️ Instalación y Uso
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/danimtx/ruta-frutilla.git
+cd ruta-frutilla
+npm install
