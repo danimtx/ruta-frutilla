@@ -32,7 +32,7 @@ export default function VideoRuta() {
             className="aspect-video max-w-4xl mx-auto rounded-lg overflow-hidden shadow-lg border border-red-300"
           >
             <ReactPlayer
-              url="https://youtu.be/Oj7h3htMp8M?si=n0KZcaAH6yyiPaGC"
+              url="https://www.youtube.com/watch?v=Do6djJwHxfQ"
               width="100%"
               height="100%"
               controls

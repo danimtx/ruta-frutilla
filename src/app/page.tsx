@@ -22,7 +22,7 @@ export default function HomePage() {
       <RutaSection />
       <SignBoard />
       <TemporalidadRuta />
-      {/* <VideoRuta /> */}
+      <VideoRuta />
       <PromocionRuta />
       <ChatBot />
       <Footer />
