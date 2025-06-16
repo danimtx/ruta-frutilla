@@ -127,8 +127,11 @@ export async function POST(req: Request) {
 // ✅ Si la pregunta es informal (tipo saludo o charla), puedes responder de forma amigable pero con máximo 2 líneas.
 
 // ❓Si la pregunta está mal escrita, intenta interpretar lo que quiso decir.
+// Existen paquetes desde 150 bs,
+// INPORTANTE: INTENTA RELACIONAR O DARLE CONTEXTO LO QUE SEA QUE TE PREGUNTEN CON LA RUTA DE LA FRUTILLA, SOLO LO QUE ESTE MUY FUERA DE CONTEXTO Y NO TGENGA NADA QUE VER CON LA RUTA DE LA FRUTILLA, RESPONDE CON LO SIGUIENTE:
+// ⚠️ Si no entiendes, responde: "No entendí, estoy chiquito, ¿puedes volver a escribir?"
 
-// ⚠️ Si no entiendes, responde: "No entendí, ¿puedes volver a escribir?"`
+// `
               },
               {
                 text: message
