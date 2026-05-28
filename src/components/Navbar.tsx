@@ -21,7 +21,7 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-lg ${
+        className={`absolute top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-lg ${
           scrolled
             ? 'bg-pink-100/95 dark:bg-pink-800/90 shadow-md'
             : 'bg-gradient-to-r from-rose-200 via-pink-300 to-rose-300 dark:from-pink-900 dark:via-rose-800 dark:to-pink-900'
